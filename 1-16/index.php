@@ -11,3 +11,8 @@ $lastNames = [
     'Testinen'
 ];
 
+foreach($firstNames as $f){
+    foreach($lastNames as $l){
+        echo "$f $l. <br/>\n";
+    }
+}
